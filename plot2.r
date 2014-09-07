@@ -31,5 +31,5 @@ Sys.setlocale("LC_TIME", "C")
 plot(p1$DateTime,p1$Global_active_power,
      ylab="Global Active Power (killowatts)",xlab="",type="l")
 dev.copy(png,file="plot2.png",width=480,height=480)
-#dev.off()
+dev.off()
 #dev.off()
